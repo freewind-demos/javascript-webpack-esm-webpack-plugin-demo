@@ -1,5 +1,10 @@
 <html lang="en">
 <body>
-<script src="./dist/bundle.js"></script>
+<div id="main"></div>
+<script>
+  import('./dist/bundle.js').then(module => {
+    document.getElementById('main').innerText = module.hello('webpack');
+  });
+</script>
 </body>
 </html>
