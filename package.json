@@ -1,13 +1,13 @@
 {
-    "scripts": {
-        "start": "webpack && http-server . -c-1 -o"
-    },
-    "devDependencies": {
-        "@purtuga/esm-webpack-plugin": "1.0.1",
-        "css-loader": "2.1.1",
-        "http-server": "0.11.1",
-        "style-loader": "0.23.1",
-        "webpack": "4.29.6",
-        "webpack-cli": "3.3.0"
-    }
+  "scripts": {
+    "start": "webpack && http-server . -c-1 -o"
+  },
+  "devDependencies": {
+    "@purtuga/esm-webpack-plugin": "1.0.1",
+    "css-loader": "2.1.1",
+    "http-server": "0.11.1",
+    "style-loader": "0.23.1",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0"
+  }
 }
